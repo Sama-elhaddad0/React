@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // ✅ ده اللي يمنع الأخطاء توقف البيلد
+  images: {
+    domains: ["www.themealdb.com"],
   },
 };
 
